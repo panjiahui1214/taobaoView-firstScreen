@@ -187,12 +187,9 @@ html, body {
     padding: 6px 16px;
     text-indent: 10px;
 }
-.wrapper .search-wrap .search-con .search-box .sousuo,
-.wrapper .search-wrap .search-con .search-box .camera {
+.wrapper .search-wrap .search-con .search-box .sousuo {
     display: inline-block;
     position: absolute;
-}
-.wrapper .search-wrap .search-con .search-box .sousuo {
     width: 12px;
     height: 14px;
     top: 11px;
@@ -201,6 +198,8 @@ html, body {
     background-size: 100% 100%;
 }
 .wrapper .search-wrap .search-con .search-box .camera {
+    display: inline-block;
+    position: absolute;
     width: 20px;
     height: 20px;
     top: 11px;
@@ -245,8 +244,8 @@ html, body {
     margin-left: 6px;
 }
 .wrapper .search-wrap .search-con .code-box .close {
-    position: absolute;
     display: inline-block;
+    position: absolute;
     top: 0;
     left: -18px;
     border: 1px solid #eee;
@@ -547,8 +546,8 @@ html, body {
     position: relative;
 }
 .wrapper .screen-box .col-right .member .member-head p a span {
-    position: absolute;
     display: inline-block;
+    position: absolute;
     width: 16px;
     height: 16px;
     top: 0;
